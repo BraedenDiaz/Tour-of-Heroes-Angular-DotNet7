@@ -19,10 +19,11 @@ Specifically, it uses the following technologies and frameworks:
 - Entity Framework
   - In-Memory Database (Default)
   - Microsoft SQL Server (Optional)
+  - Docker (Optional)
 
 ## Technical Features
 
-- A front-end Angular web app used to access the web server's API endpoints to perform CRUD (Create, Read, Update, and Delete) operations on the web server's resources.
+- A front-end Angular web app used to access the web server's API endpoints which perform CRUD (Create, Read, Update, and Delete) operations on the web server's resources.
 - A back-end C# .NET 7 RESTful Web API to allow the performing of CRUD operations on web server resources.
 - The ability to use an In-Memory database out-of-the-box or optionally use a Microsoft SQL Server running in a Docker container.
 
@@ -85,9 +86,9 @@ ng serve --open
 ```
 
 6. Navigate and use the web app.
-  - You can add some hero names on the `/heroes` page.
-  - You can create, read, update, and delete heroes as desired.
-  - If you restart the .Net 7 back-end, the heroes will be removed if using the In-Memory DB.
+    - You can add some hero names on the `/heroes` page.
+    - You can create, read, update, and delete heroes as desired.
+    - If you restart the .Net 7 back-end, the heroes will be removed if using the In-Memory DB.
 
 ## References
 1. [Angular Tour of Heroes Tutorial](https://angular.io/tutorial/tour-of-heroes)
