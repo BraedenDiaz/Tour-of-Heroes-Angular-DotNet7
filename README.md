@@ -1,6 +1,6 @@
 # Tour-of-Heroes-Angular-DotNet7
 
-The goal of this project was to create an example of an implementation of a full-stack web application using Angular and .Net 7.
+The goal of this project was to create an example of an implementation of a full-stack web application using Angular and C# .Net 7.
 
 ## The Web Stack
 
@@ -22,7 +22,7 @@ Specifically, it uses the following technologies and frameworks:
 
 ## Technical Features
 
-- A front-end Angular web app used to access the web server's API endpoints and perform CRUD (Create, Read, Update, and Delete) operations on the web server's resources.
+- A front-end Angular web app used to access the web server's API endpoints to perform CRUD (Create, Read, Update, and Delete) operations on the web server's resources.
 - A back-end C# .NET 7 RESTful Web API to allow the performing of CRUD operations on web server resources.
 - The ability to use an In-Memory database out-of-the-box or optionally use a Microsoft SQL Server running in a Docker container.
 
