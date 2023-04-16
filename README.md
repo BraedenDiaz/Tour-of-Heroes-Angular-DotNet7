@@ -70,6 +70,13 @@ Perform the following steps to run this web application.
       Note: If you use a different password, you will need to update the `DefaultConnection` string in `appsettings.json` to whatever you changed it to.
 
       2.2. In `Program.cs`, comment out the line which sets up the In-Memory database `builder.Services.AddDbContext<HeroContext>(options => options.UseInMemoryDatabase("Heroes"));` and uncomment the other one which uses the SqlServer and the `DefaultConnection` string. To go back to the In-Memory database, simply do the reverse.
+      
+      2.3 Use the `dotnet ef` tool in your terminal to run the database migrations which add the needed database and tables to your running Microsoft SQL Server. Run the following from within the `HeroesApi` project NOT solution.
+      
+      ```
+      dotnet tool install --global dotnet-ef
+      dotnet ef database update
+      ```
 
 3. In Visual Studio, start the HeroesApi. Use the `https` option, Visual Studio may ask you to trust the localhost certificate, do so.
 
