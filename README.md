@@ -4,12 +4,12 @@ The goal of this project was to create an example of an implementation of a full
 
 ## The Web Stack
 
-This web app uses Angular 15 for the front-end and C# .Net 7 for the back-end.
+This web app uses Angular 16 for the front-end and C# .Net 7 for the back-end.
 
 Specifically, it uses the following technologies and frameworks:
 
 ### Front-End
-- Angular 15 Framework
+- Angular 16 Framework
   - HTML
   - CSS
   - TypeScript
